@@ -1,0 +1,36 @@
+name: clover
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_secure_storage: ^7.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^0.13.5
+  fluttertoast: ^8.0.9
+  image_picker: ^0.8.4+4
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/kakao_login_medium_narrow.png
+    - assets/images/btnG_naver.png
+    - assets/images/team_clover_logo.png
+    - assets/images/id_test_img.png
+    - assets/images/id_test_cat.jpg
+    - assets/images/id_test_logo.jpg
+    - assets/images/test_trade_book.jpg
+    - assets/images/community_logo.png
+    - assets/images/reserve_logo.png
